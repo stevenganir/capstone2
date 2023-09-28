@@ -22,7 +22,7 @@ app.use(cors());
 
 //Database Connection
 	//Connecting to MongoDB Database
-	mongoose.connect("mongodb+srv://steven:admin123@batch-297.mi0eika.mongodb.net/capstone2?retryWrites=true&w=majority", 
+	mongoose.connect("*DB*", 
 		{
 			useNewUrlParser: true,
 			useUnifiedTopology: true
